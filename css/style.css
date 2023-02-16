@@ -66,3 +66,49 @@ body{
     width: 130px;
     height: 42px;
 }
+.main{
+    width: 100%;
+    height: 833px;
+    background-color: #F6F6F6;
+}
+.main h1{
+    padding-top: 150px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+}
+.main hr{
+    margin-left: 920px;
+}
+.main p{
+    color: #3C3C3C;
+    text-align: center;
+    width: 570px;
+    height: 42px;
+    margin-left: 650px;
+    font-family: 'Lato';
+    line-height: 24px;
+    font-size: 16px;
+}
+.photo{
+    padding-left: 500px;
+    padding-top: 60px;
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+}
+.photo_text{
+    display: flex;
+    list-style: none;
+    column-gap: 240px;
+    padding-left: 500px;
+}
+.photo_text b{
+    font-family: 'Lato';
+    font-weight: 700;
+    line-height: 21px;
+    font-size: 18px;
+}
+
