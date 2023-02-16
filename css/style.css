@@ -66,6 +66,11 @@ body{
     width: 130px;
     height: 42px;
 }
+.menu_right p:hover{
+    background-color: #18B5DC;
+    color: #FFFFFF;
+    border:  1px solid #18B5DC;
+}
 .main{
     width: 100%;
     height: 833px;
@@ -102,7 +107,7 @@ body{
 .photo_text{
     display: flex;
     list-style: none;
-    column-gap: 240px;
+    column-gap: 150px;
     padding-left: 500px;
 }
 .photo_text b{
@@ -110,5 +115,26 @@ body{
     font-weight: 700;
     line-height: 21px;
     font-size: 18px;
+    width: 170px;
+    height: 21px;
 }
-
+.photo_text_job{
+    display: flex;
+    list-style: none;
+    column-gap: 150px;
+    padding-left: 500px;
+}
+.photo_text_job b{
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 18px;
+    width: 170px;
+    height: 21px;
+    color: #646464;
+}
+.footer{
+    width: 100%;
+    height: 260px;
+    background-color: #FFFFFF;
+}
