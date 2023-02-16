@@ -104,6 +104,30 @@ body{
     column-gap: 50px;
     list-style: none;
 }
+.Alex_photo{
+    transform: scale(1);
+    transition: 0.6s;
+}
+.Alex_photo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.Elena_photo{
+    transform: scale(1);
+    transition: 0.6s;
+}
+.Elena_photo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.Lily_photo{
+    transform: scale(1);
+    transition: 0.6s;
+}
+.Lily_photo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
 .photo_text{
     display: flex;
     list-style: none;
