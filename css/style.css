@@ -162,3 +162,37 @@ body{
     height: 260px;
     background-color: #FFFFFF;
 }
+.footer_logo{
+    padding-left: 850px;
+    display: flex;
+    
+}
+.footer_logo img{
+    padding-top: 38px;
+}
+.footer_logo p{
+    padding-top: 49px;
+    font-family: 'Train';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+.footer_select{
+    display: flex;
+    padding-left: 750px;
+    column-gap: 30px;
+}
+.footer_select a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.footer_select a:hover{
+    color: #18B5DC;
+}
+.footer_icon{
+    display: flex;
+}
