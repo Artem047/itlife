@@ -195,4 +195,57 @@ body{
 }
 .footer_icon{
     display: flex;
+    padding-top: 28px;
+    padding-left: 800px;
+    column-gap: 10px;
+}
+.twit_ico{
+    background: url(/images/twitter.png);
+    width: 43px;
+    height: 42px;
+    transition: 0.6s;
+}
+.twit_ico:hover{
+    background: url(/images/twit.png);
+    transition: 0.9s;
+}
+.face_ico{
+    background: url(/images/facebook.png);
+    width: 43px;
+    height: 42px;
+    transition: 0.6s;
+}
+.face_ico:hover{
+    background-image: url(/images/fac.png);
+    transition: 0.9s;
+}
+.inst_ico{
+    background: url(/images/instagram.png);
+    width: 43px;
+    height: 42px;
+    transition: 0.6s;
+}
+.inst_ico:hover{
+    background-image: url(/images/inst.png);
+    transition: 0.9s;
+}
+.link_ico{
+    background: url(/images/linkedin.png);
+    width: 43px;
+    height: 42px;
+    transition: 0.6s;
+}
+.link_ico:hover{
+    background-image: url(/images/link.png);
+    transition: 0.9s;
+}
+.tg_ico{
+    background: url(/images/telegram.png);
+    width: 43px;
+    height: 42px;
+    transition: 0.6s;
+}
+.tg_ico:hover{
+    background-image: url(/images/tg.png);
+    transition: 0.9s;
 }
