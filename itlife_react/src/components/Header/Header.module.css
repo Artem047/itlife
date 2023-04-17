@@ -32,24 +32,6 @@
     font-size: 30px;
     font-weight: 400;
 }
-.menu_center{
-    display: flex;
-    list-style: none;
-    margin-left: 511px;
-    margin-top: 28px;
-    column-gap: 30px;
-}
-.menu_center li a{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lato';
-    line-height: 24px;
-    text-decoration: none;
-    color: black;
-}
-.menu_center li a:hover{
-    color: #18B5DC;
-}
 .menu_right{
     margin-left: 265px;
     margin-top: 19px;
